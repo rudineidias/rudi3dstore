@@ -1,2 +1,6 @@
-import podutos from "./produtos"
-export  { produtos }
+import produtos from "./produtos"
+
+const QTDE_MAX_PARCELAS = 4
+const TAXA_JUROS_MENSAL = 0.0167
+
+export  { QTDE_MAX_PARCELAS, TAXA_JUROS_MENSAL, produtos }

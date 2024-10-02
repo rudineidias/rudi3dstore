@@ -1,3 +1,5 @@
-// Apenas TypeScript nesta pasta
-export * from './produto'
 export * from './constants'
+export * from './parcelamento'
+export * from './produto'
+export * from './utils'
+
