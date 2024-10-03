@@ -1,4 +1,4 @@
-export default interface Parcelamento {
+export default interface Parcelamento{
     valorTotal: number
     valorParcela: number
     qtdeParcelas: number

@@ -22,7 +22,7 @@ export default function ProdutoItem(props: ProdutoItemProps) {
             <div className="w-full h-48 relative">
                 <Image
                     src={produto.imagem ? produto.imagem : ""}
-                    width="300" height="300"
+                    width="300"
                     className="object-contain"
                     alt="Imagem do Produto"
                 />

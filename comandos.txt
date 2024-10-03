@@ -1,0 +1,3 @@
+nvm use 22    ->> utiliza a versão 22 do node
+npm run dev   ->> executa o servidor itegrado
+npm install   ->> instala as dependências
