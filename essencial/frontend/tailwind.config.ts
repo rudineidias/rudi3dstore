@@ -15,6 +15,10 @@ const config: Config = {
                     DEFAULT: '#0E001D',
                     foreground: '#FFF',
                 },
+                'light-green': {
+                    DEFAULT: '#9ec0a0',
+                    foreground: '#000',
+                },
             },
         },
     },

@@ -14,7 +14,7 @@ export default function ProdutoItem(props: ProdutoItemProps) {
     return (
         <Link
             href={`/produto/${props.produto.id}`}
-            className="flex flex-col bg-violet-dark border border-white/10 rounded-xl relative max-w-[350px]"
+            className="flex flex-col bg-light-green border border-white/10 rounded-xl relative max-w-[350px]"
         >
             <div className="absolute flex justify-end top-2.5 right-2.5">
                 <NotaReview nota={props.produto.nota} />
@@ -22,8 +22,9 @@ export default function ProdutoItem(props: ProdutoItemProps) {
             <div className="w-full h-48 relative">
                 <Image
                     src={produto.imagem ? produto.imagem : ""}
-                    width="300" height="300"
-                    className="object-contain"
+                    className="object-contain w-full"
+                    fill
+                    style="width:226px; height:226px; max-height:226px; !important"
                     alt="Imagem do Produto"
                 />
             </div>
